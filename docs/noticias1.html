@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>O fim do jogo do tigrinho em SP | Placar Da Notícia</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+</head>
+<body>
+
+  <header class="site-header">
+    <h1>Placar Da Notícia</h1>
+  </header>
+
+  <nav>
+    <div class="logo">Notícia Agora</div>
+    <button class="hamburguer" onclick="toggleMenu()">☰</button>
+    <ul class="menu">
+      <li><a href="index.html">Início</a></li>
+      <li><a href="#">Política</a></li>
+      <li><a href="#">Esportes</a></li>
+      <li><a href="#">Tecnologia</a></li>
+      <li><a href="https://facebook.com/infinitmarketing2">Contato</a></li>
+    </ul>
+    <button id="toggle-theme" class="theme-toggle">🌙</button>
+  </nav>
+
+  <main class="noticia-container">
+    <article class="noticia">
+      <h2>O fim do jogo do tigrinho em SP</h2>
+      <p class="meta">Publicado em 23 de Maio de 2025 • Categoria: Política</p>
+      <img src="img/img1.jpg" alt="Imagem da Notícia" class="noticia-img"/>
+
+      <p>
+        As propagandas de sites de apostas estão com os dias contados em São Paulo. Uma nova regulamentação proíbe a divulgação de plataformas conhecidas como “jogo do tigrinho” e similares. 
+      </p>
+      <p>
+        A medida atinge influenciadores digitais, sites e aplicativos que promovem esses jogos. O descumprimento da nova regra pode resultar em multas severas.
+      </p>
+      <p>
+        O deputado Guto Zacarias lidera a iniciativa na Assembleia Legislativa de São Paulo, afirmando que "essas plataformas viciam jovens e causam prejuízos sociais".
+      </p>
+    </article>
+  </main>
+
+  <div class="comentarios">
+    <h4>Deixe um comentário:</h4>
+    <form id="comentarioForm">
+      <input type="text" id="nome" placeholder="Seu nome" required />
+      <textarea id="mensagem" placeholder="Seu comentário" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+
+    <div id="comentarios">
+      <h4>Comentários:</h4>
+      <ul id="listaComentarios"></ul>
+    </div>
+  </div>
+
+  <div class="social-media">
+    <p>Siga-nos nas redes sociais:</p>
+    <div class="icons">
+      <a href="https://facebook.com/infinitmarketing2" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://twitter.com/seuperfil" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a href="https://instagram.com/seuperfil" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://linkedin.com/in/seuperfil" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

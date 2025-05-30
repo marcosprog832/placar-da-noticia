@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Notícias Agora</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+</head>
+<body>
+
+  <header class="site-header">
+    <h1>Placar Da Noticia</h1>
+  </header>
+
+
+  <nav>
+    <div class="logo">Notica Agora</div>
+    <button class="hamburguer" onclick="toggleMenu()">☰</button>
+    <ul class="menu">
+      <li><a href="#">Início</a></li>
+      <li><a href="#">Política</a></li>
+      <li><a href="#">Esportes</a></li>
+      <li><a href="#">Tecnologia</a></li>
+      <li><a href="https://facebook.com/infinitmarketing2">Contato</a></li>
+    </ul>
+    <button id="toggle-theme" class="theme-toggle">🌙</button>
+  </nav>
+
+  <div class="carousel">
+    <div class="slides">
+      <div class="slide active" style="background-image: url('img/img1.jpg')"></div>
+      <div class="slide" style="background-image: url('img/img2.jpg')"></div>
+      <div class="slide" style="background-image: url('img/img3.jpg')"></div>
+      <div class="slide" style="background-image: url('img/img4.webp')"></div>
+      <div class="slide" style="background-image: url('img/img5.jpg')"></div>
+      <div class="slide" style="background-image: url('img/img6.avif')"></div>
+      <div class="slide" style="background-image: url('img/img7.jpg')"></div>
+      <div class="slide" style="background-image: url('img/img8.avif')"></div>
+    </div>
+    <div class="carousel-buttons">
+      <button onclick="moveSlide(-1)">❮</button>
+      <button onclick="moveSlide(1)">❯</button>
+    </div>
+  </div>
+
+ <div class="news-grid">
+  <div class="card">
+    <h3><a href="noticias1.html">O fim do jogo do tigrinho em SP</a></h3>
+    <p>As propagandas de sites de apostas estão chegando ao seu fim, veja o que acontecerá pra quem divulgar casa de apostas em SP.</p>
+  </div>
+  <div class="card">
+    <h3><a href="noticias2.html">Moraes rebate ex-ministro e o ameaça de prisão por desacato</a></h3>
+    <p>Veja como o ministro reage a essa situação desconfortável.</p>
+  </div>
+  <div class="card">
+    <h3><a href="noticias3.html">Deputado Guto Zacarias enfrenta as casas de apostas em São Paulo</a></h3>
+    <p>Deputado quer proibir divulgação de cassinos online em SP.</p>
+  </div>
+  <div class="card">
+    <h3><a href="noticias4.html">TJSP determina bloqueio de 15 sites de jogos de azar</a></h3>
+    <p>Veja agora quais são esses sites.</p>
+  </div>
+  <div class="card">
+    <h3><a href="noticias5.html">Neymar Jr fora da seleção</a></h3>
+    <p>Técnico Carlo Ancelotti fala sobre a decisão.</p>
+  </div>
+  <div class="card">
+    <h3><a href="noticias6.html">Vem jogar no Brasil? Cristiano Ronaldo posta texto de despedida e agita a web</a></h3>
+    <p>Veja oque o craque CR7 falou em ultima partida</p>
+  </div>
+  <div class="card">
+    <h3><a href="noticias7.html">Novo técnico da Seleção, Ancelotti traça meta até a Copa do Mundo e diz por que aceitou convite da CBF</a></h3>
+    <p>Os próximos jogos da Seleção Brasileira são em junho e o técnico Carlo Ancelotti</p>
+  </div>
+  <div class="card">
+    <h3><a href="noticias8.html">Moraes autoriza Eduardo Bolsonaro a responder por escrito e também manda Jair Bolsonaro ser ouvido em inquérito</a></h3>
+    <p> Deputado Eduardo Bolsonaro e seu pai ex presidente da republica Jair Mesias Bolsonaro </p>
+  </div>
+</div>
+
+
+  <div class="comentarios">
+    <h4>Deixe um comentário:</h4>
+    <form id="comentarioForm">
+      <input type="text" id="nome" placeholder="Seu nome" required />
+      <textarea id="mensagem" placeholder="Seu comentário" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+
+    <div id="comentarios">
+      <h4>Comentários:</h4>
+      <ul id="listaComentarios"></ul>
+    </div>
+  </div>
+
+  <div class="social-media">
+    <p>Siga-nos nas redes sociais:</p>
+    <div class="icons">
+      <a href="https://facebook.com/infinitmarketing2" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://twitter.com/seuperfil" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a href="https://instagram.com/placar.da.noticia" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://linkedin.com/in/seuperfil" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
